@@ -11,7 +11,7 @@ I will be demonstrating how you can use group policy to disable accounts/users w
 
 <img width="401" alt="Screenshot 2025-02-07 at 14 20 51" src="https://github.com/user-attachments/assets/589447e5-733c-464a-8823-d9808e4f9e32" />
 
-- When group policy management policy is open right-click *Default Domain Policy* and click edit, then go to account policies, then click on account lockout policies and choose the settings you want.
+- When group policy management is open right-click *Default Domain Policy* and click edit, then go to account policies, then click on account lockout policies and choose the settings you want.
 
 <img width="753" alt="Screenshot 2025-02-07 at 14 21 09" src="https://github.com/user-attachments/assets/6cdd75c2-0640-47b4-831a-c710c00c19e2" />
 
@@ -33,7 +33,7 @@ I will be demonstrating how you can use group policy to disable accounts/users w
 
 <img width="1151" alt="Screenshot 2025-02-07 at 14 31 22" src="https://github.com/user-attachments/assets/9e1a6355-9857-4e8e-8c31-b46a69a79fc5" />
 
-- After multiple failed attempts the account you tried logging in with will be disabled. To re-enable it go to active directory users & computers and unlock the account (You can also change the password. The original password was password1).
+- After multiple failed attempts the account you tried logging in with will be locked out. To unlock it go to active directory users & computers and unlock the account (You can also change the password. The original password was Password1 and I changed it to Password2).
 
 <img width="754" alt="Screenshot 2025-02-07 at 14 32 01" src="https://github.com/user-attachments/assets/beb70149-7c37-4c5a-91ca-9edbbc5f22cc" />
 
